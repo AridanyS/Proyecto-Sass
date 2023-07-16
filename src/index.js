@@ -1,2 +1,2 @@
-import {prueba} from "../build/js/prueba";
-prueba();
+import {sayHi} from '../build/js/prueba.js'
+sayHi()

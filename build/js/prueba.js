@@ -1,4 +1,3 @@
-"use strict"
-export const prueba = () => alert("Hola"); 
+export const sayHi = () => console.log('Hola')
 
 
