@@ -1,3 +1,10 @@
-
+header {
+  background-image: url(../img/home1.jpg);
+}
+@media screen {
+  header {
+    max-width: 375px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
