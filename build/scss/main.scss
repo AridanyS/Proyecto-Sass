@@ -1,10 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    @media screen {
-        max-width: 375px;
-        
-    }
     background-image: url(../img/home1.jpg);
-    
-    
+    height: 340px;
+    width: 375px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 45px 33px 25px;
 }
 
