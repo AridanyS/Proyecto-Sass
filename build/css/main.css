@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +40,36 @@ header .cruz-partida {
   background-position: center;
   background-position: 100%;
   background-repeat: no-repeat;
+}
+
+/*  Sello animación */
+.taco_sello {
+  animation: spin-around 7s linear infinite;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 60%;
+  top: 57%;
+}
+@keyframes spin-around {
+  /*  Clockwise rotation  */
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*  Fonts to use  */
+/* HR */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #8c8b8b, #8c8b8b, #8c8b8b);
+  background-image: -moz-linear-gradient(left, #8c8b8b, #8c8b8b, #8c8b8b);
+  background-image: -ms-linear-gradient(left, #8c8b8b, #8c8b8b, #8c8b8b);
+  background-image: -o-linear-gradient(left, #8c8b8b, #8c8b8b, #8c8b8b);
 }
 
 /*# sourceMappingURL=main.css.map */
