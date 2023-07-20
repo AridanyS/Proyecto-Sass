@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*  Header  */
 header {
   background-image: url(../img/home1-mobile.jpg);
   height: 340px;
@@ -11,20 +12,17 @@ header {
   background-position: 100%;
   background-repeat: no-repeat;
 }
-
-.logofixed {
+header .logofixed {
   position: fixed;
   display: flex;
   padding: 33px 45px 33px 25px;
   top: 0;
   left: 0;
 }
-
-.burguer {
+header .logofixed .burguer {
   margin-left: 45vw;
 }
-
-.cruz-partida {
+header .cruz-partida {
   position: absolute;
   top: 35.7%;
   left: 15%;
@@ -32,8 +30,15 @@ header {
   width: 70%;
 }
 
-.fondo-verde2 {
-  width: 100%;
+/*  Article */
+/*  Section .bienvenida */
+.bienvenida {
+  background-image: url(../img/backgrounds/darkgreen.jpg);
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+  background-position: 100%;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
