@@ -6,26 +6,32 @@
 header {
   background-image: url(../img/home1-mobile.jpg);
   height: 340px;
-  width: 375px;
   background-size: cover;
   background-position: center;
   background-position: 50%;
   background-repeat: no-repeat;
 }
 
-nav {
+.logofixed {
+  position: fixed;
   display: flex;
-  justify-content: space-between;
   padding: 33px 45px 33px 25px;
+  justify-content: space-between;
+  top: 0px;
+  left: 0px;
+  width: 320px;
+  height: 50px;
+  background: red;
+  backface-visibility: hidden;
 }
 
 .cruz-partida {
-  position: absolute;
-  top: 35.7%;
-  left: 15%;
-  display: block;
-  height: 31%;
-  width: 70%;
+  /* position: absolute;
+      top: 35.7%;
+      left: 15%;
+      height: 31%;
+      width: 70%;
+  */
 }
 
 /*# sourceMappingURL=main.css.map */
