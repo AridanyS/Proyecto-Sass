@@ -95,9 +95,17 @@ p {
 
 /*Content-Bienvenida*/
 .bienvenida {
-  padding: 25vh 3vh 25vh;
+  padding: 25vh 3vh 20vh;
 }
 
-/*Impostor HR*/
+/*Img man1-fuerte*/
+.man1-fuerte {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
