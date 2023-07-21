@@ -41,6 +41,7 @@ header .cruz-partida {
   background-position: center;
   background-position: 100%;
   background-repeat: no-repeat;
+  display: block;
 }
 
 /*  Sello animación */
@@ -106,6 +107,18 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-position: 100%;
+  display: block;
+}
+
+/*Section .nuestros-locales*/
+.nuestros-locales {
+  background-image: url(../img/backgrounds/blue.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -29,6 +29,7 @@ header{
 }}
 
 /*  Article */
+
 /*  Section .bienvenida */
 .bienvenida{
     background-image: url(../img/backgrounds/darkgreen.jpg);
@@ -37,6 +38,7 @@ header{
     background-position: center;
     background-position: 100%;
     background-repeat: no-repeat;
+    display: block;
 }
 /*  Sello animación */
 .taco_sello{
@@ -97,6 +99,19 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-position: 100%;
+  display: block;
+
+}
+
+/*Section .nuestros-locales*/
+.nuestros-locales{
+  background-image: url(../img/backgrounds/blue.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
 }
 
 
