@@ -217,7 +217,6 @@ p {
 /*Section .sirvete*/
 .sirvete {
   background-image: url(../img/backgrounds/orange.jpg);
-  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,16 +232,21 @@ p {
   line-height: 2rem;
   font-weight: bold;
   hyphens: auto;
+  padding-left: 3vh;
+  padding-top: 5vh;
 }
 
 .locales-h1S {
   font-family: "Domine", serif;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 3.4rem;
+  line-height: 4rem;
   max-width: 100%;
   color: #774234;
   hyphens: auto;
   padding-bottom: 4vh;
+  padding-left: 3vh;
+  font-weight: bold;
+  letter-spacing: -2px;
 }
 
 /*HR sivare*/
@@ -256,7 +260,7 @@ p {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 40% 40% 40%;
-  padding: 10vh 3vh 5vh 5vh;
+  padding: 13vh 5vh;
   align-items: center;
   align-content: center;
 }
