@@ -94,6 +94,12 @@ p {
   hyphens: manual;
 }
 
+/*HR*/
+.hr-blanco {
+  border: 0.1px solid white;
+  border-radius: 100px;
+}
+
 /*Content-Bienvenida*/
 .bienvenida {
   padding: 25vh 3vh 20vh;
@@ -119,6 +125,47 @@ p {
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
+}
+
+/*Fonts*/
+.nuestros-locales {
+  padding: 5vh 3vh;
+}
+
+.locales-span {
+  font-family: "Domine", serif;
+  color: #363f66;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: bold;
+  hyphens: auto;
+}
+
+.locales-h1 {
+  font-family: "Domine", serif;
+  font-size: 3rem;
+  line-height: 3rem;
+  max-width: 100%;
+  color: #363f66;
+  hyphens: auto;
+  padding-bottom: 4vh;
+}
+
+/*HR Locales*/
+.hr-azul-oscuro {
+  border: 0.1px solid #363f66;
+  border-radius: 100px;
+}
+
+.abiertos {
+  font-family: "Domine", serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #363f66;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  hyphens: manual;
 }
 
 /*# sourceMappingURL=main.css.map */
