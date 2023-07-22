@@ -214,4 +214,93 @@ p {
   display: block;
 }
 
+/*Section .sirvete*/
+.sirvete {
+  background-image: url(../img/backgrounds/orange.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
+}
+
+/*Fonts*/
+.locales-spanS {
+  font-family: "Domine", serif;
+  color: #774234;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: bold;
+  hyphens: auto;
+}
+
+.locales-h1S {
+  font-family: "Domine", serif;
+  font-size: 3rem;
+  line-height: 3rem;
+  max-width: 100%;
+  color: #774234;
+  hyphens: auto;
+  padding-bottom: 4vh;
+}
+
+/*HR sivare*/
+.hr-azul-oscuroS {
+  border: 0.1px solid #774234;
+  border-radius: 100px;
+}
+
+/*Grid-Locales*/
+.grid-localesS {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 40% 40%;
+  padding: 10vh 3vh 5vh 5vh;
+  align-items: center;
+  align-content: center;
+}
+
+/*letters grid abiertos*/
+.name-placesS {
+  font-family: "Domine", serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: #774234;
+  hyphens: manual;
+}
+
+.info-localesS {
+  font-family: "Domine", serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: #774234;
+  hyphens: manual;
+}
+
+.button-infoS {
+  background-color: #a6bcf5;
+  all: unset;
+  cursor: pointer;
+  font-family: "Domine", serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 2px solid #774234;
+  padding: 3% 15% 3% 15%;
+  hyphens: manual;
+}
+
+/*Imag man3-fuerte*/
+.man3-fuerte {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
