@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /*  Header  */
 header {
   background-image: url(../img/home1-mobile.jpg);
@@ -29,7 +34,7 @@ header {
 
 .cruz-partida {
   margin-top: 14.8em;
-  margin-left: 3.5em;
+  margin-left: 3.4em;
   max-width: 70%;
   /*position: absolute;
   top: 35.5vh;
@@ -136,7 +141,6 @@ p {
 /*Section .nuestros-locales*/
 .nuestros-locales {
   background-image: url(../img/backgrounds/blue.jpg);
-  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
