@@ -10,23 +10,38 @@ header{
     background-size: cover;
     background-position: center;
     background-position: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;}
 .logofixed{
     position: fixed;
     display: flex;
     padding: 33px 45px 33px 25px;
     top: 0;
-    left: 0;
+    left: 0;}
 .burguer{
     margin-left: 45vw;
-}}
+}
+
 .cruz-partida{
-    position: absolute;
-    top: 35.7%;
-    left: 15%;
+margin-top: 14.8em;
+margin-left: 3.5em;
+  max-width: 70%;
+    /*position: absolute;
+    top: 35.5vh;
+    left: 8.3vh;
     height: 31%;
-    width: 70%;
-}}
+    width: 70%;*/
+}
+/*
+@media screen and (min-width: 420px) {
+  .cruz-partida{
+  position: absolute;
+  top: 37vh;
+  left: 9.3vh;
+  height: 31%;
+  width: 70%;
+  }
+}
+*/
 
 /*  Article */
 
@@ -94,7 +109,7 @@ p{
 }
 /*Content-Bienvenida*/
 .bienvenida{
-  padding: 25vh 3vh 20vh ;
+  padding: 25vh 2vh 20vh 2vh;
 }
 
 /*Img man1-fuerte*/
@@ -118,7 +133,7 @@ p{
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
-  padding: 5vh 0vh 13vh 2vh;
+  padding: 5vh 2vh 13vh 2vh;
 }
 /*Fonts*/
 .locales-span{
@@ -236,6 +251,8 @@ p{
 .hr-azul-oscuroS{
     border: 0.1px solid #774234;
     border-radius: 100px;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 /*Grid-Locales*/
 .grid-localesS{
