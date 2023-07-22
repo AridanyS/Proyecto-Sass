@@ -118,7 +118,7 @@ p{
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
-  padding: 5vh 3vh 45vh;
+  padding: 5vh 0vh 13vh 2vh;
 }
 /*Fonts*/
 .locales-span{
@@ -242,9 +242,11 @@ p{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 40% 40% 40%;
-  padding: 13vh 5vh;
+  padding: 10vh 6vh 10vh 0vh;
   align-items: center;
   align-content: center;
+  justify-content: center;
+  justify-items: center;
 }
 /*letters grid abiertos*/
 .name-placesS{
@@ -341,7 +343,7 @@ p{
   flex-direction: row;
 }
 .trip{
-  width: 7%;
+  width: 8%;
 }
 
 /*Grid rosita*/
