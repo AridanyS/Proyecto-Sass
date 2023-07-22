@@ -285,3 +285,76 @@ p{
   background-position: 100%;
   display: block;
 }
+
+/*Section rosita*/
+.rosita{
+  background-image: url(../img/backgrounds/pink.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
+  padding: 5% 5% 5% 5%;
+}
+
+/*Fonts*/
+.nosotros{
+  font-family: 'Domine', serif;
+  color: #c33d38;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: bold;
+  hyphens: auto;
+  padding-left: 3vh;
+  padding-top: 5vh;
+
+}
+.ladramos{
+  font-family: 'Domine', serif;
+  font-size: 3.4rem;
+  line-height: 4rem;
+  max-width: 100%;
+  color: #c33d38;
+  hyphens: auto;
+  padding-bottom: 4vh;
+  padding-left: 3vh;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+/*HR Rosita*/
+.hr-rosita{
+  border: 0.1px solid #ab7b82;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+/*Posición de la pag*/
+.morder{
+  font-family: 'Domine', serif;
+  color: #c33d38;
+  font-size: 1rem;
+}
+.redes{
+  display: flex;
+  align-items: baseline;
+  align-content: stretch;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.trip{
+  width: 7%;
+}
+
+/*Grid rosita*/
+.grid-rosita{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+  padding: 10px;
+}
+.gr-imagenes{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
