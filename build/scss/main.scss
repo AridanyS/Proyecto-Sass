@@ -79,7 +79,7 @@ header{
 p{
   font-family: 'Domine', serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.97rem;
   line-height: 1.3rem;
   color: white;
   padding-top: 4vh;
@@ -118,11 +118,9 @@ p{
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
+  padding: 5vh 3vh 45vh;
 }
 /*Fonts*/
-.nuestros-locales{
-  padding: 5vh 3vh;
-}
 .locales-span{
   font-family: 'Domine', serif;
   color: #363f66ff;
@@ -145,6 +143,7 @@ p{
     border: 0.1px solid #363f66;
     border-radius: 100px;
 }
+/*Fonts abiertos*/
 .abiertos{
   font-family: 'Domine', serif;
   font-weight: bold;
@@ -155,8 +154,49 @@ p{
   padding-bottom: 3vh;
   hyphens: manual;
 }
-.muy-abiertos{
+/*Grid-Locales*/
+.grid-locales{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30% 30% 30%;
+  padding: 5vh 3vh 5vh 5vh;
+  align-items: center;
+}
+/*letters grid abiertos*/
+.name-places{
+  font-family: 'Domine', serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: #363f66;
+}
+.info-locales{
+  font-family: 'Domine', serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: #363f66;
+}
+.button-info{
+  background-color: #a6bcf5;
+  all: unset;
+  cursor: pointer;
+  font-family: 'Domine', serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 2px solid #363f66;
+  padding: 3% 20% 3% 20%;
+}
 
+/*Imag man2-fuerte*/
+.man2-fuerte{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
 }
 
 
