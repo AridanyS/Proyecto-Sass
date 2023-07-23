@@ -103,6 +103,7 @@ header {
   color: white;
   hyphens: auto;
   padding-bottom: 4vh;
+  overflow-x: hidden;
 }
 
 p {
@@ -114,6 +115,7 @@ p {
   padding-top: 4vh;
   padding-bottom: 3vh;
   hyphens: manual;
+  overflow-x: hidden;
 }
 
 /*HR*/
@@ -125,6 +127,7 @@ p {
 /*Content-Bienvenida*/
 .bienvenida {
   padding: 25vh 2vh 20vh 2vh;
+  overflow-x: hidden;
 }
 
 /*Img man1-fuerte*/
@@ -147,6 +150,7 @@ p {
   background-position: 100%;
   display: block;
   padding: 5vh 2vh 13vh 2vh;
+  overflow-x: hidden;
 }
 
 /*Fonts*/
@@ -185,6 +189,7 @@ p {
   padding-top: 4vh;
   padding-bottom: 3vh;
   hyphens: manual;
+  overflow-x: hidden;
 }
 
 /*Grid-Locales*/
@@ -222,6 +227,7 @@ p {
   font-size: 0.8rem;
   border: 2px solid #363f66;
   padding: 3% 20% 3% 20%;
+  overflow-x: hidden;
 }
 
 /*Imag man2-fuerte*/
@@ -255,6 +261,7 @@ p {
   hyphens: auto;
   padding-left: 3vh;
   padding-top: 5vh;
+  overflow-x: hidden;
 }
 
 .locales-h1S {
@@ -268,6 +275,7 @@ p {
   padding-left: 3vh;
   font-weight: bold;
   letter-spacing: -2px;
+  overflow-x: hidden;
 }
 
 /*HR sivare*/
@@ -276,6 +284,7 @@ p {
   border-radius: 100px;
   margin-left: 2vh;
   margin-right: 2vh;
+  overflow-x: hidden;
 }
 
 /*Grid-Locales*/
@@ -288,6 +297,7 @@ p {
   align-content: center;
   justify-content: center;
   justify-items: center;
+  overflow-x: hidden;
 }
 
 /*letters grid abiertos*/
@@ -319,6 +329,7 @@ p {
   border: 2px solid #774234;
   padding: 3% 15% 3% 15%;
   hyphens: manual;
+  overflow-x: hidden;
 }
 
 /*Imag man3-fuerte*/
@@ -341,6 +352,7 @@ p {
   background-position: 100%;
   display: block;
   padding: 5% 5% 5% 5%;
+  overflow-x: hidden;
 }
 
 /*Fonts*/
@@ -353,6 +365,7 @@ p {
   hyphens: auto;
   padding-left: 1vh;
   padding-top: 5vh;
+  overflow-x: hidden;
 }
 
 .ladramos {
@@ -366,6 +379,7 @@ p {
   padding-left: 1vh;
   font-weight: bold;
   letter-spacing: -2px;
+  overflow-x: hidden;
 }
 
 /*HR Rosita*/
@@ -401,6 +415,7 @@ p {
   grid-template-rows: repeat(3, 1fr);
   gap: 2px;
   padding: 10px;
+  overflow-x: hidden;
 }
 
 .gr-imagenes {
