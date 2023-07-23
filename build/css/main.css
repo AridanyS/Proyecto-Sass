@@ -351,7 +351,7 @@ p {
   line-height: 2rem;
   font-weight: bold;
   hyphens: auto;
-  padding-left: 3vh;
+  padding-left: 1vh;
   padding-top: 5vh;
 }
 
@@ -363,7 +363,7 @@ p {
   color: #c33d38;
   hyphens: auto;
   padding-bottom: 4vh;
-  padding-left: 3vh;
+  padding-left: 1vh;
   font-weight: bold;
   letter-spacing: -2px;
 }
