@@ -269,14 +269,19 @@ p{
 /*Grid-Locales*/
 .grid-localesS{
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 40% 40% 40%;
-  padding: 10vh 6vh 10vh 0vh;
+  /* grid-template-columns: 50% 50%; */
+  /* grid-template-rows: 40% 40% 40%; */
+  /* padding: 10vh 6vh 10vh 0vh; */
+  grid-template-columns: 160px 205px;
   align-items: center;
   align-content: center;
   justify-content: center;
   justify-items: center;
   overflow-x: hidden;
+  grid-template-rows: 190px 180px 190px;
+  width: fit-content;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* padding: 5%;*/
 }
 /*letters grid abiertos*/
 .name-placesS{
