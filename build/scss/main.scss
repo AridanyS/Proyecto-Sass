@@ -3,9 +3,11 @@
     padding: 0;
 }
 body{
-  overflow-x: hidden;
   width: 100%;
 }
+html, body {
+  overflow-x: hidden 
+} 
 /*  Header  */
 header{
     background-image: url(../img/home1-mobile.jpg);
@@ -26,7 +28,7 @@ header{
 
 .cruz-partida{
 margin-top: 14.8em;
-margin-left: 3.4em;
+margin-left: 3em;
   max-width: 70%;
     /*position: absolute;
     top: 35.5vh;
@@ -231,6 +233,8 @@ p{
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
+  padding: 5vh 2vh 15vh 2vh;
+  overflow-x: hidden;
 
 }
 /*Fonts*/
@@ -247,7 +251,7 @@ p{
 }
 .locales-h1S{
   font-family: 'Domine', serif;
-  font-size: 3.4rem;
+  font-size: 3.2rem;
   line-height: 4rem;
   max-width: 100%;
   color: #774234;
@@ -269,19 +273,10 @@ p{
 /*Grid-Locales*/
 .grid-localesS{
   display: grid;
-  /* grid-template-columns: 50% 50%; */
-  /* grid-template-rows: 40% 40% 40%; */
-  /* padding: 10vh 6vh 10vh 0vh; */
-  grid-template-columns: 160px 205px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
-  overflow-x: hidden;
-  grid-template-rows: 190px 180px 190px;
-  width: fit-content;
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  /* padding: 5%;*/
+    grid-template-columns: 50% 56%;
+    grid-template-rows: 40% 40% 40%;
+    padding: 5vh 3vh 5vh 3vh;
+    align-items: center;
 }
 /*letters grid abiertos*/
 .name-placesS{
