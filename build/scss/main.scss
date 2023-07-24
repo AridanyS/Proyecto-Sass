@@ -6,6 +6,7 @@ body{
   width: 100%;
 }
 html, body {
+  position: relative;
   overflow-x: hidden 
 } 
 /*  Header  */
@@ -67,7 +68,7 @@ margin-left: 3em;
     width: 130px;
     position: absolute;
     left: 60%;
-    top: 57%;
+    top: 8%;
 @keyframes spin-around {
     /*  Clockwise rotation  */
     0% {
@@ -89,7 +90,7 @@ margin-left: 3em;
 }
 .chiwawa-h1{
   font-family: 'Domine', serif;
-  font-size: 4rem;
+  font-size: 3.9rem;
   line-height: 4rem;
   max-width: 100%;
   color: white;
