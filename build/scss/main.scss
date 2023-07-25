@@ -12,11 +12,39 @@ html, body {
 /*  Header  */
 header{
     background-image: url(../img/home1-mobile.jpg);
+    width: 414px;
     height: 340px;
     background-size: cover;
     background-position: center;
     background-position: 100%;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+
+  }
+
+    @media screen and (min-width: 414px){
+      header{
+        width: 454px;
+        height: 340px;
+        background-size: cover;
+        background-position: center;
+        background-position: 100%;
+        background-repeat: no-repeat;
+
+      }
+    }
+    @media screen and (min-height: 914px) {
+      header{
+        width: 454px;
+        height: 340px;
+        background-size: cover;
+        background-position: center;
+        background-position: 100%;
+        background-repeat: no-repeat;
+
+      }
+    }
 .logofixed{
     position: fixed;
     display: flex;
@@ -28,8 +56,8 @@ header{
 }
 
 .cruz-partida{
-margin-top: 14.8em;
-margin-left: 3em;
+  margin-top: 15.3em;
+  margin-left: 3.8em;
   max-width: 70%;
     /*position: absolute;
     top: 35.5vh;
@@ -37,14 +65,25 @@ margin-left: 3em;
     height: 31%;
     width: 70%;*/
 }
-
-/*MEDIA QUERIES*/
-/*iPhone SE, iPhone X*/
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 414px) {
   .cruz-partida{
-    margin-top: 14.9em;
-    margin-left: 3.5em;
-  width: 70%;
+    margin-top: 15.8em;
+    margin-left: 4.2em;
+    max-width: 70%;
+  }
+}
+@media screen and (min-height: 915px) {
+  .cruz-partida{
+    margin-top: 15.8em;
+    margin-left: 4.2em;
+    max-width: 70%;
+  }
+}
+@media screen and (min-height: 914px) {
+  .cruz-partida{
+    margin-top: 15.8em;
+    margin-left: 4.2em;
+    max-width: 70%;
   }
 }
 
