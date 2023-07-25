@@ -37,17 +37,16 @@ margin-left: 3em;
     height: 31%;
     width: 70%;*/
 }
-/*
-@media screen and (min-width: 420px) {
+
+/*MEDIA QUERIES*/
+/*iPhone SE, iPhone X*/
+@media screen and (min-width: 375px) {
   .cruz-partida{
-  position: absolute;
-  top: 37vh;
-  left: 9.3vh;
-  height: 31%;
+    margin-top: 14.9em;
+    margin-left: 3.5em;
   width: 70%;
   }
 }
-*/
 
 /*  Article */
 

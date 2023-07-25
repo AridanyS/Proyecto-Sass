@@ -47,17 +47,15 @@ header {
   width: 70%;*/
 }
 
-/*
-@media screen and (min-width: 420px) {
-  .cruz-partida{
-  position: absolute;
-  top: 37vh;
-  left: 9.3vh;
-  height: 31%;
-  width: 70%;
+/*MEDIA QUERIES*/
+/*iPhone SE, iPhone X*/
+@media screen and (min-width: 375px) {
+  .cruz-partida {
+    margin-top: 14.9em;
+    margin-left: 3.5em;
+    width: 70%;
   }
 }
-*/
 /*  Article */
 /*  Section .bienvenida */
 .bienvenida {
@@ -253,7 +251,7 @@ p {
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
-  padding: 0vh 2vh 10vh 2vh;
+  padding: 5vh 2vh 15vh 2vh;
   overflow-x: hidden;
 }
 
