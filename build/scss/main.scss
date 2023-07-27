@@ -449,7 +449,29 @@ flex-direction: column;
 padding: 8%;
 align-items: flex-end;
 opacity: 0;
+width: 0%;
+transition: width 0.3s ease-in-out;
+//transition: transform 0.5s ease-in
 }
+
+.submenu.expand {
+  width: 30%;
+}
+/*
+.submenu{
+  animation: expandFromRightToLeft 2s ease;
+}
+*/
+/*
+@keyframes expandFromRightToLeft {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+*/
 .equis{
   width: 12%;
   position: relative;
