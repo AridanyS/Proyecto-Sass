@@ -9,6 +9,7 @@ html, body {
   position: relative;
   overflow-x: hidden 
 } 
+
 /*  Header  */
 header{
     background-image: url(../img/home1-mobile.jpg);
@@ -438,6 +439,7 @@ p{
 .submenu{
 position: fixed;
 right: 0;
+//right: 300;
 top: 0;
 height: 100vh;
 background-color: #158c7a;
@@ -445,8 +447,8 @@ z-index: 1;
 display: flex;
 flex-direction: column;
 padding: 8%;
-
 align-items: flex-end;
+//opacity: 0;
 }
 .equis{
   width: 12%;
@@ -468,6 +470,13 @@ li{
 .secondary{
   font-weight: 200;
   font-size: 11px;
-  opacity: 0.5;
+  opacity: 0.6;
   font-family: 'Domine', serif;
 }
+/*.prueba1{
+  width: 300px;
+  height: 300px;
+  background-color: #c33d38;
+  opacity: 1;
+}
+*/
