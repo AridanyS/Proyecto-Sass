@@ -1,7 +1,15 @@
+/*Initial settings*/
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+  }
+  html, body {
+    position: relative;
+    overflow-x: hidden 
+  } 
 
 .header-image{
     width: 100%;
@@ -15,7 +23,7 @@
    .logofixed{
     position: fixed;
     display: flex;
-    padding: 33px 45px 33px 25px;
+    padding: 33px 45px 33px 17px;
     align-items: center;
     top: 0;
     left: 0;}
@@ -86,3 +94,10 @@
 
     /*  Fonts to use  */
  @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+/*HR*/
+#hr-naranja{
+    border: 0.1px solid #d89969;
+    border-radius: 100px;
+}
