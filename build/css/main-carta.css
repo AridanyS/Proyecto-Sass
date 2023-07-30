@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-image {
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.logofixed {
+  position: fixed;
+  display: flex;
+  padding: 33px 45px 33px 25px;
+  top: 0;
+  left: 0;
+}
+
+.burguer {
+  margin-left: 45vw;
+}
+
+/*Submenu*/
+.submenu {
+  position: fixed;
+  right: 300;
+  top: 0;
+  height: 100vh;
+  background-color: #158c7a;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  align-items: flex-end;
+  opacity: 0;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.submenu.expand {
+  width: 30%;
+}
+
+/*
+.submenu{
+  animation: expandFromRightToLeft 2s ease;
+}
+*/
+/*
+@keyframes expandFromRightToLeft {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+*/
+.equis {
+  width: 12%;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+}
+
+ul {
+  display: block;
+  line-height: 65px;
+}
+
+li {
+  font-family: "Domine", serif;
+  list-style: none;
+  font-weight: bold;
+  font-size: larger;
+  color: #ffffff;
+}
+
+.secondary {
+  font-weight: 200;
+  font-size: 11px;
+  opacity: 0.6;
+  font-family: "Domine", serif;
+}
+
+/*# sourceMappingURL=main-carta.css.map */
