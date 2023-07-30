@@ -14,6 +14,10 @@ html, body {
   overflow-x: hidden;
 }
 
+a {
+  all: unset;
+}
+
 /*  Header  */
 header {
   background-image: url(../img/home1-mobile.jpg);
@@ -497,9 +501,9 @@ p {
 }
 */
 .equis {
-  width: 12%;
+  width: 15%;
   position: relative;
-  left: 15px;
+  left: 6px;
   bottom: 15px;
 }
 

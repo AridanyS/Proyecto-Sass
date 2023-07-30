@@ -9,6 +9,9 @@ html, body {
   position: relative;
   overflow-x: hidden 
 } 
+a{
+  all: unset;
+}
 
 /*  Header  */
 header{
@@ -474,9 +477,9 @@ transition: width 0.3s ease-in-out;
 }
 */
 .equis{
-  width: 12%;
+  width: 15%;
   position: relative;
-  left: 15px;
+  left: 6px;
   bottom: 15px;
 }
 ul{

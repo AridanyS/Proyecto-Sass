@@ -82,22 +82,77 @@ body{
 
     .platillos{
         background-image: url(../img/backgrounds/orange.jpg);
-        width: 100vw;
-        height: 100vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-position: 100%;
         display: block;
-
+        padding: 5vh 2vh 35vh 2vh;
     }
 
     /*  Fonts to use  */
- @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
 /*HR*/
+.platillos-title{
+    width: 100vw;
+    height: 15%;
+    padding: 1vh 1vh 1vh 4vh;
+}
+#subtitle{
+    font-family: 'Domine', serif;
+    color: #774234;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    hyphens: auto;
+}
+#title{
+    font-family: 'Domine', serif;
+    font-size: 3.1rem;
+    line-height: 4rem;
+    max-width: 100%;
+    color: #774234;
+    hyphens: auto;
+    padding-bottom: 4vh;
+    hyphens: manual;
+}
 #hr-naranja{
     border: 0.1px solid #d89969;
     border-radius: 100px;
+}
+/*GRID NARANJA*/
+.flex-naranja{
+    display: grid;
+    grid-template-columns: 50% 56%;
+    grid-template-rows: 40% 40% 40% 40%;
+    padding: 1vh 3vh 6vh 3vh;
+    align-items: center;
+
+}
+.img-platillos{
+    width: 50%;
+    object-fit: cover;
+    display: block;
+}
+.CBTP{
+    font-family: "Domine", serif;
+    color: #774234;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: bold;
+    hyphens: manual;
+
+}
+.button-platillos{
+    background-color: #a6bcf5;
+    all: unset;
+    cursor: pointer;
+    font-family: "Domine", serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: 2px solid #774234;
+    padding: 3% 15% 3% 15%;
+    hyphens: manual;
+    overflow-x: hidden;
 }
