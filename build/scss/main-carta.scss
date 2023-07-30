@@ -4,17 +4,19 @@
 }
 
 .header-image{
-    width: 100vw ;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-position: 100%;
     background-repeat: no-repeat;
+    display: block;
    }
    .logofixed{
     position: fixed;
     display: flex;
     padding: 33px 45px 33px 25px;
+    align-items: center;
     top: 0;
     left: 0;}
 .burguer{
@@ -43,21 +45,7 @@
     .submenu.expand {
       width: 30%;
     }
-    /*
-    .submenu{
-      animation: expandFromRightToLeft 2s ease;
-    }
-    */
-    /*
-    @keyframes expandFromRightToLeft {
-      from {
-        width: 0;
-      }
-      to {
-        width: 20%;
-      }
-    }
-    */
+   
     .equis{
       width: 12%;
       position: relative;
@@ -81,3 +69,20 @@
       opacity: 0.6;
       font-family: 'Domine', serif;
     }
+
+    /*PLATILLOS*/
+
+    .platillos{
+        background-image: url(../img/backgrounds/orange.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        display: block;
+
+    }
+
+    /*  Fonts to use  */
+ @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
