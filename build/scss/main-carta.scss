@@ -9,7 +9,10 @@ body{
   html, body {
     position: relative;
     overflow-x: hidden 
-  } 
+  }
+  a{
+    all: unset;
+  }
 
 .header-image{
     width: 100%;
