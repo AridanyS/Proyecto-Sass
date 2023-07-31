@@ -159,3 +159,26 @@ body{
     hyphens: manual;
     overflow-x: hidden;
 }
+/*Cantina-img*/
+.cantina-img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
+}
+/*Section Cantina*/
+.Cantina{
+  background-image: url(../img/backgrounds/blue.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: block;
+ 
+  
+}
