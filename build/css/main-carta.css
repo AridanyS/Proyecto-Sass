@@ -222,7 +222,13 @@ li {
   color: #363f66;
   hyphens: auto;
   padding-bottom: 4vh;
-  hyphens: manual;
+}
+
+/*Tiros y tragos*/
+.tiros-tragos {
+  font-family: "Domine", serif;
+  color: #363f66;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main-carta.css.map */
