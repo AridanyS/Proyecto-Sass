@@ -184,7 +184,7 @@ body{
 #hr-azul{
   border: 0.1px solid #363f66;
   border-radius: 100px;
-  margin: 1vh 4vh 0vh 4vh;
+  margin: 1vh 6vh 0vh 6vh;
   opacity: 0.3;
 }
 .cantina-title{
@@ -252,6 +252,7 @@ body{
 .title-cantina-h3, .precios-cantina{
   font-weight: bold;
   margin: 7vw 0vw 7vw 0vw;
+  text-align: center;
 }
 .text-cantina{
   font-size: 0.885em;
@@ -263,4 +264,11 @@ body{
     background-color: #a7bef7;
     padding: 1vw 3vw 1vw 3vw;
     font-weight: bold;
+}
+
+#hr-azul-2{
+  border: 0.1px solid #363f66;
+  border-radius: 100px;
+  margin: 1vh 0vh 0vh 6vh;
+  opacity: 0.3;
 }
