@@ -185,7 +185,7 @@ li {
 .Cantina {
   background-image: url(../img/backgrounds/blue.jpg);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -250,6 +250,39 @@ li {
   font-size: 0.9rem;
   border: 2px solid #363f66;
   background-color: white;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+
+/*Grid-cantina*/
+.grid-Cantina {
+  font-family: "Domine", serif;
+  color: #363f66;
+  width: 90vw;
+  hyphens: auto;
+}
+
+.grid-inside-cantina {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  justify-items: center;
+  margin: 10vw 0vw 10vw 14vw;
+}
+
+.title-cantina-h3, .precios-cantina {
+  font-weight: bold;
+  margin: 10vw 0vw 10vw 0vw;
+}
+
+.text-cantina {
+  font-size: 0.885em;
+}
+
+.saber-mas-cantina {
+  font-size: 0.9rem;
+  border: 2px solid #363f66;
+  background-color: #a7bef7;
   padding: 1vw 3vw 1vw 3vw;
   font-weight: bold;
 }
