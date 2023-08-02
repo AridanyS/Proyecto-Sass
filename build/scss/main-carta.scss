@@ -298,7 +298,7 @@ body{
 #hr-verde-2{
   border: 0.1px solid #7fc5b5;
   border-radius: 100px;
-  margin: 1vh 6vh 0vh 6vh;
+  margin: 1vh 4vh 0vh 4vh;
 }
 .botanas-title{
   width: 100vw;
@@ -306,6 +306,8 @@ body{
   padding: 1vh 1vh 1vh 4vh;
   font-weight: bold;
   line-height: 2.8rem;
+  padding-top: 3vh;
+  padding-bottom: 1vh;
 }
 #subtitle-botanas{
   font-family: "Domine", serif;
@@ -321,5 +323,33 @@ body{
   max-width: 100%;
   color: #1f7762;
   hyphens: auto;
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
+  hyphens: auto;
+}
+.comparte{
+  font-family: "Domine", serif;
+  color: #1f7762;
+  max-width: 100%;
+  font-size: 1rem;
+  padding: 4vh 1vh 3vh 5vh;
+  font-weight: bold;
+  hyphens: auto;
+}
+/*Grid Iconos Tipos de Botanas*/
+.tipos-botanas{
+  width: 100%;
+  font-family: "Domine", serif;
+  color: #1f7762;
+  font-size: 1rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+  hyphens: auto;
+  grid-gap: 2vh 5vh;
+  padding: 4vh 0vh 4vh 2vh;
+}
+.img-iconos-botanas{
+  width: 35%;
 }
