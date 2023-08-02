@@ -100,7 +100,7 @@ body{
 .platillos-title{
     width: 100vw;
     height: 15%;
-    padding: 1vh 1vh 1vh 4vh;
+    padding: 0vh 1vh 1vh 2vh;
 }
 #subtitle{
     font-family: 'Domine', serif;
@@ -192,7 +192,7 @@ body{
 .cantina-title{
   width: 100vw;
   height: 15%;
-  padding: 1vh 1vh 1vh 4vh;
+  padding: 4vh 1vh 0vh 4vh;
   font-weight: bold;
   line-height: 2.8rem;
 }
@@ -315,6 +315,7 @@ body{
   font-size: 1.5rem;
   font-weight: bold;
   hyphens: auto;
+  padding-top: 1vh;
   
 }
 #title-botanas{
