@@ -354,20 +354,91 @@ body{
 .img-iconos-botanas{
   width: 35%;
 }
-//Grid Entrantes y Botanas
-.grid1EntrBot{
+
+/* Grid Entrantes y Botanas */
+.grid1EntrBot {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
- 
-}
-//Flex-Botanas
-.grid1EntrBot{
+  grid-auto-rows: auto;
   font-family: "Domine", serif;
   color: #1f7762;
 }
 
-//Iconos-Flex-Botanas
-.img-iconos-botanas-entrantes{
-  width: 8%;
+/* Centrar contenido en columnas */
+.colum1-entrantes,
+.colum2-entrantes {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+/* Contenedor de imagen y nombre */
+.img-y-nombre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Agregar margen vertical a elementos de contenido */
+.contenido-platillo {
+  margin: 1rem 0;
+}
+
+/* Iconos-Flex-Botanas */
+.img-iconos-botanas-entrantes {
+  width: 9%;
+}
+
+/* Nombre de platillo */
+.nombre-platillo {
+  font-weight: bold;
+  margin: 0.99rem 0;
+}
+.nombre-platillo2{
+  font-weight: bold;
+  margin: 0.6rem 0;
+}
+
+/* Descripción de platillo */
+.descripcion-platillo {
+  margin: 0.25rem 0;
+}
+.descripcion-platillo2{
+  margin: 0.15rem 0;
+}
+.descripcion-platillo, .descripcion-platillo2{
+  margin-top: 1rem;
+}
+
+/* Precio de platillo */
+.precio-y-saber-mas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+/* Alineación "Saber más" */
+.saber-mas-entrantes,
+.saber-mas-botanas {
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  border: 2px solid #1f7762;
+  background-color: #99d9cb;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+.precio-botanas2{
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
