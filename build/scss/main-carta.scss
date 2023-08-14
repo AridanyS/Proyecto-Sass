@@ -354,3 +354,20 @@ body{
 .img-iconos-botanas{
   width: 35%;
 }
+//Grid Entrantes y Botanas
+.grid1EntrBot{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+ 
+}
+//Flex-Botanas
+.grid1EntrBot{
+  font-family: "Domine", serif;
+  color: #1f7762;
+}
+
+//Iconos-Flex-Botanas
+.img-iconos-botanas-entrantes{
+  width: 8%;
+}
