@@ -358,12 +358,12 @@ body{
 /* Grid Entrantes y Botanas */
 .grid1EntrBot {
   display: grid;
-    grid-template-columns: 50% 45%;
-    grid-auto-rows: auto;
-    font-family: "Domine", serif;
-    color: #1f7762;
-    padding: 20px 20px 20px 24px;
-    gap: 1rem;
+  grid-template-columns: 45% 45%;
+  grid-auto-rows: auto;
+  font-family: "Domine", serif;
+  color: #1f7762;
+  padding: 20px 0px 20px 20px;
+  gap: 1rem;
 }
 
 /* Centrar contenido en columnas */
@@ -449,9 +449,44 @@ body{
 .precio-botanasJ{
   font-weight: bold;
 }
+//Grid Tequeños
+.precio-botanasT{
+  font-weight: bold;
+}
+//Grid Bomba
+.precio-botanasBomba{
+  font-weight: bold;
+}
+.precio-botanasEnsalada{
+  font-weight: bold;
+}
 
-
-
+//NACHOS ARTESANALES
+#Nachos-artesanales{
+  font-family: "Domine", serif;
+  font-size: 1.5rem;
+  max-width: 100%;
+  color: #1f7762;
+  hyphens: auto;
+  hyphens: auto;
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+}
+//Grid Sacramento
+.precio-botanasSacramento, .precio-botanasFlor{
+  font-weight: bold;
+}
+//Extra-nachos
+#Extra-nachos{
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  hyphens: auto;
+  font-family: "Domine", serif;
+  color: #1f7762;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
 
 
 
