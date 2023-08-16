@@ -387,10 +387,12 @@ li {
 /* Grid Entrantes y Botanas */
 .grid1EntrBot {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 45%;
   grid-auto-rows: auto;
   font-family: "Domine", serif;
   color: #1f7762;
+  padding: 20px 20px 20px 24px;
+  gap: 1rem;
 }
 
 /* Centrar contenido en columnas */
@@ -417,18 +419,20 @@ li {
 
 /* Iconos-Flex-Botanas */
 .img-iconos-botanas-entrantes {
-  width: 9%;
+  width: 11%;
 }
 
 /* Nombre de platillo */
 .nombre-platillo {
   font-weight: bold;
   margin: 0.99rem 0;
+  hyphens: auto;
 }
 
 .nombre-platillo2 {
   font-weight: bold;
   margin: 0.6rem 0;
+  hyphens: auto;
 }
 
 /* Descripción de platillo */
@@ -442,6 +446,9 @@ li {
 
 .descripcion-platillo, .descripcion-platillo2 {
   margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  hyphens: auto;
 }
 
 /* Precio de platillo */
@@ -465,7 +472,15 @@ li {
 }
 
 .precio-botanas2 {
-  margin-top: 1rem;
+  margin-top: 0.94rem;
+}
+
+.precio-botanas2, .precio-botanas {
+  font-weight: bold;
+}
+
+.precio-botanasJ {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main-carta.css.map */
