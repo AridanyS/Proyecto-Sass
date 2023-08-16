@@ -489,6 +489,7 @@ li {
 
 .precio-botanasBomba {
   font-weight: bold;
+  margin-top: 15px;
 }
 
 .precio-botanasEnsalada {
@@ -519,6 +520,78 @@ li {
   color: #1f7762;
   text-align: center;
   margin: 20px 0px 20px 0px;
+}
+
+.saber-mas-botanasN {
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  border: 2px solid #1f7762;
+  background-color: #99d9cb;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+
+.nombre-platilloSacramento {
+  font-weight: bold;
+  margin: 0.99rem 0;
+  hyphens: auto;
+  margin-top: 20px;
+}
+
+.precio-y-saber-masSacramento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.24rem;
+}
+
+.nombre-platilloEnsalda {
+  font-weight: bold;
+  margin: 0.6rem 0;
+  hyphens: auto;
+}
+
+.contenido-platilloEnsalada {
+  margin-top: 3px;
+}
+
+.saber-mas-botanasYuca {
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  border: 2px solid #1f7762;
+  background-color: #99d9cb;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+
+.precio-y-saber-masYuca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.95rem;
+}
+
+.img-y-nombreQuesadilla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.colum2-entrantesQuesadilla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.precio-y-saber-masJalapeños {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.2rem;
 }
 
 /*# sourceMappingURL=main-carta.css.map */
