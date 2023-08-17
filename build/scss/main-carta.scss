@@ -507,7 +507,7 @@ body{
   font-weight: bold;
   margin: 0.99rem 0;
   hyphens: auto;
-  margin-top: 20px;
+  margin-top: 27px;
 }
 .precio-y-saber-masSacramento{
   display: flex;
@@ -644,3 +644,95 @@ display: block;
   padding: 4vh 0vh 4vh 0vh;
   justify-content: center;
 }
+//Grid-taqueria-rosa
+.grid1EntrBot-rosa{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-auto-rows: auto;
+  font-family: "Domine", serif;
+  color: #c33d38;
+  padding: 20px 0px 20px 0px;
+  gap: 1rem;
+  justify-content: center;
+}
+.saber-mas-izq-rosa{
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  border: 2px solid #c33d38;
+  background-color: #e0a1aa;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+.saber-mas-der-rosa{
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  border: 2px solid #c33d38;
+  background-color: #e0a1aa;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+}
+//GIFS
+.img-gif-izq{
+  width: 30%;
+}
+.img-gif-der{
+  width: 30%;
+}
+.descripcion-platillo-rosa-izq{
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  hyphens: auto;
+}
+.descripcion-platillo-rosa-der{
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  hyphens: auto;
+}
+.colum1-entrantes-rosa{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.colum2-entrantes-rosa{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.img-y-nombre-rosa-izq{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0.5rem;
+}
+.img-y-nombre-rosa-der{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  }
+  .precio-y-saber-mas-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+  }
+  .precio-y-saber-mas-der{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.9rem;
+  }
+  .nombre-platillo-rosa-izq{
+    font-weight: bold;
+    margin: 0.6rem 0;
+    hyphens: auto;
+  }
+  .nombre-platillo-rosa-der{
+    font-weight: bold;
+    margin: 0.6rem 0;
+    hyphens: auto;
+  }
