@@ -56,6 +56,12 @@ header{
     align-items: center;
     top: 0;
     left: 0;}
+    @media screen and (max-width: 288px) {
+      .logofixed{
+        padding: 33px 45px 33px 12px;
+      }
+    }
+    
 .burguer{
     margin-left: 45vw;
 }
@@ -121,6 +127,11 @@ header{
       transform: rotate(0deg);
     }
   }}
+  @media screen and (max-width: 332px) {
+    .taco_sello{
+      left: 5%;
+    }
+  }
 /*  Fonts to use  */
  @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
  .chiwawa-span{
@@ -254,7 +265,7 @@ p{
   font-weight: bold;
   font-size: 0.8rem;
   border: 2px solid #363f66;
-  padding: 3% 10% 3% 10%;
+  padding: 3% 5% 3% 5%;
   overflow-x: hidden;
 }
 
@@ -347,7 +358,7 @@ p{
   font-weight: bold;
   font-size: 0.8rem;
   border: 2px solid #774234;
-  padding: 3% 10% 3% 10%;
+  padding: 3% 5% 3% 5%;
   hyphens: manual;
   overflow-x: hidden;
 }

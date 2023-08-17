@@ -98,7 +98,7 @@ li {
   background-repeat: no-repeat;
   background-position: 100%;
   display: block;
-  padding: 5vh 2vh 35vh 2vh;
+  padding: 5vh 2vh 45vh 2vh;
 }
 
 /*  Fonts to use  */
@@ -166,7 +166,7 @@ li {
   font-weight: bold;
   font-size: 0.8rem;
   border: 2px solid #774234;
-  padding: 3% 15% 3% 15%;
+  padding: 3% 5% 3% 5%;
   hyphens: manual;
   overflow-x: hidden;
 }
