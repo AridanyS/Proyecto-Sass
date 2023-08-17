@@ -362,6 +362,7 @@ li {
   padding: 4vh 1vh 3vh 5vh;
   font-weight: bold;
   hyphens: auto;
+  text-align: center;
 }
 
 /*Grid Iconos Tipos de Botanas*/
@@ -376,8 +377,9 @@ li {
   grid-template-rows: 50% 50%;
   justify-items: center;
   hyphens: auto;
-  grid-gap: 2vh 5vh;
-  padding: 4vh 0vh 4vh 2vh;
+  grid-gap: 2vh 4vh;
+  padding: 4vh 0vh 4vh 0vh;
+  justify-content: center;
 }
 
 .img-iconos-botanas {
@@ -391,8 +393,9 @@ li {
   grid-auto-rows: auto;
   font-family: "Domine", serif;
   color: #1f7762;
-  padding: 20px 0px 20px 20px;
+  padding: 20px 0px 20px 0px;
   gap: 1rem;
+  justify-content: center;
 }
 
 /* Centrar contenido en columnas */
