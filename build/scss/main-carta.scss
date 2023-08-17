@@ -36,62 +36,62 @@ body{
 
 /*Submenu*/
 .submenu{
-    position: fixed;
-    //right: 0;
-    right: 300;
-    top: 0;
-    height: 100vh;
-    background-color: #158c7a;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 8%;
-    align-items: flex-end;
-    opacity: 0;
-    width: 0%;
-    transition: width 0.3s ease-in-out;
-    //transition: transform 0.5s ease-in
-    }
-    
-    .submenu.expand {
-      width: 30%;
-    }
-   
-    .equis{
-      width: 12%;
-      position: relative;
-      left: 15px;
-      bottom: 15px;
-    }
-    ul{
+  position: fixed;
+  //right: 0;
+  right: 300;
+  top: 0;
+  height: 100vh;
+  background-color: #158c7a;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 8%;
+  align-items: flex-end;
+  opacity: 0;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+  //transition: transform 0.5s ease-in
+  }
+  
+  .submenu.expand {
+    width: 30%;
+  }
+  
+  .equis{
+    width: 12%;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+  }
+  ul{
+    display: block;
+    line-height: 65px;
+  }
+  li{
+    font-family: 'Domine', serif;
+    list-style: none;
+    font-weight: bold;
+    font-size: larger;
+    color: #ffffff;
+  }
+  .secondary{
+    font-weight: 200;
+    font-size: 11px;
+    opacity: 0.6;
+    font-family: 'Domine', serif;
+  }
+
+  /*PLATILLOS*/
+
+  .platillos{
+      background-image: url(../img/backgrounds/orange.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position: 100%;
       display: block;
-      line-height: 65px;
-    }
-    li{
-      font-family: 'Domine', serif;
-      list-style: none;
-      font-weight: bold;
-      font-size: larger;
-      color: #ffffff;
-    }
-    .secondary{
-      font-weight: 200;
-      font-size: 11px;
-      opacity: 0.6;
-      font-family: 'Domine', serif;
-    }
-
-    /*PLATILLOS*/
-
-    .platillos{
-        background-image: url(../img/backgrounds/orange.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-position: 100%;
-        display: block;
-        padding: 5vh 2vh 35vh 2vh;
-    }
+      padding: 5vh 2vh 35vh 2vh;
+  }
 
     /*  Fonts to use  */
     @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
@@ -604,7 +604,7 @@ display: block;
 }
 //HR rosa
 #hr-rosa-2{
-  border: 0.1px solid #b97c7a;
+  border: 0.1px solid #d38783;
   border-radius: 100px;
   margin: 1vh 4vh 0vh 4vh;
 }
@@ -709,53 +709,67 @@ align-items: center;
 margin-bottom: 0.5rem;
 }
 .img-y-nombre-rosa-der{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0.5rem;
+}
+.precio-y-saber-mas-izq{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0.5rem;
-  }
-  .precio-y-saber-mas-izq{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1.25rem;
-  }
-  .precio-y-saber-mas-der{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1.9rem;
-  }
-  .nombre-platillo-rosa-izq{
-    font-weight: bold;
-    margin: 0.6rem 0;
-    hyphens: auto;
-  }
-  .nombre-platillo-rosa-der{
-    font-weight: bold;
-    margin: 0.6rem 0;
-    hyphens: auto;
-  }
-  //GIF HECHICERO FORASTERO
-  .precio-y-saber-mas-der-Forastero{
+  margin-top: 1.25rem;
+}
+.precio-y-saber-mas-der{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0.5rem;
-  }
-  //NÚMERO 13
-  .numero13Flex{
-      display: flex;
-      font-family: "Domine", serif;
-      color: #c33d38;
-      flex-wrap: wrap;
-      text-align: center;
-      justify-content: center;
-      padding: 10%;
-  }
-  .img-gif-13{
-    width: 18%;
-  }
-  .img-iconos-botanas-entrantes-13{
-    width: 5%;
-  }
+  margin-top: 1.9rem;
+}
+.nombre-platillo-rosa-izq{
+  font-weight: bold;
+  margin: 0.6rem 0;
+  hyphens: auto;
+}
+.nombre-platillo-rosa-der{
+  font-weight: bold;
+  margin: 0.6rem 0;
+  hyphens: auto;
+}
+//GIF HECHICERO FORASTERO
+.precio-y-saber-mas-der-Forastero{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 0.5rem;
+}
+//NÚMERO 13
+.numero13Flex{
+  display: flex;
+  font-family: "Domine", serif;
+  color: #c33d38;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+.img-gif-13{
+  width: 18%;
+}
+.img-iconos-botanas-entrantes-13{
+  width: 5%;
+}
+//TABASCO BOTELLAS
+.img-gif-tabasco-botellas{
+  width: 90%;
+}
+.numero13Flex-Tabasco{
+  display: flex;
+  font-family: "Domine", serif;
+  color: #c33d38;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+  padding-bottom: 5%;
+}
