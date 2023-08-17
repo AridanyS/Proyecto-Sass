@@ -792,4 +792,11 @@ li {
   hyphens: auto;
 }
 
+.precio-y-saber-mas-der-Forastero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
 /*# sourceMappingURL=main-carta.css.map */
