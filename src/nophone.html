@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirección de dispositivos</title>
+    <style>
+      * {
+        background-color: #fefade;
+        margin: 0;
+      }
+      .father {
+        display: flex;
+        justify-content: center;
+      }
+
+      .alert {
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        background-color: #f44336;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert">
+      Esta página está disponible solo para dispositivos móviles
+    </div>
+    <div class="father">
+      <img src="../build/img/no_phone1.jpg" class="no_phone" />
+    </div>
+  </body>
+</html>

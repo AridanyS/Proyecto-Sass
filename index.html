@@ -7,6 +7,23 @@
     <title>Chiwawa</title>
     <link rel="stylesheet" href="build/css/main.css" />
     <link rel="shortcut icon" href="build/img/favicon/favicon.png" type="image/x-icon">
+
+    <script>
+        // Función para detectar si el dispositivo es un móvil
+        function esDispositivoMovil() {
+            const dispositivoMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            return dispositivoMovil;
+        }
+
+        // Redirigir si no es un dispositivo móvil
+        window.addEventListener('DOMContentLoaded', function() {
+            if (!esDispositivoMovil()) {
+                window.location.href = 'src/nophone.html'; // Cambia esto por la URL de tu imagen
+            }
+        });
+    </script>
+
+
 </head>
 <body>
  <header>
