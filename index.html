@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chiwawa</title>
@@ -9,38 +10,35 @@
     <link rel="shortcut icon" href="build/img/favicon/favicon.png" type="image/x-icon">
 
     <script>
-        // Función para detectar si el dispositivo es un móvil
-        function esDispositivoMovil() {
-            const dispositivoMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            return dispositivoMovil;
+        if (window.innerWidth >= 768) {
+            window.location.href = "src/nophone.html";
         }
-
-        // Redirigir si no es un dispositivo móvil
-        window.addEventListener('DOMContentLoaded', function() {
-            if (!esDispositivoMovil()) {
-                window.location.href = 'src/nophone.html'; // Cambia esto por la URL de tu imagen
+        window.addEventListener('resize', function () {
+            if (window.innerWidth >= 768) {
+                window.location.href = "src/nophone.html";
             }
         });
     </script>
-
+    </script>
 
 </head>
-<body>
- <header>
-    <div class="logofixed">
-        <!--Logo-->
-        <a href="index.html"><img class="chihuahua" src="build/img/logo.svg" alt="Logo Chiwawa"></a>
-        <!--Burguer-->
-        <div class="submenu-click">
-        <img onclick = "submenu()" class="burguer" src="build/img/burger.svg" alt="Burguer">
-        <!--<div class="prueba1" onclick = "submenu()"></div>-->
-        </div>
-    </div>
-    <img class="cruz-partida" src="build/img/cruz.png" alt="Cruzz">
 
-<!--Barra lateral derecha que aparece al dar click-->
-    <div class="submenu">
-        <img onclick = "submenuC()" class="equis" src="build/img/submenu/close.svg" alt="Equis">
+<body>
+    <header>
+        <div class="logofixed">
+            <!--Logo-->
+            <a href="index.html"><img class="chihuahua" src="build/img/logo.svg" alt="Logo Chiwawa"></a>
+            <!--Burguer-->
+            <div class="submenu-click">
+                <img onclick="submenu()" class="burguer" src="build/img/burger.svg" alt="Burguer">
+                <!--<div class="prueba1" onclick = "submenu()"></div>-->
+            </div>
+        </div>
+        <img class="cruz-partida" src="build/img/cruz.png" alt="Cruzz">
+
+        <!--Barra lateral derecha que aparece al dar click-->
+        <div class="submenu">
+            <img onclick="submenuC()" class="equis" src="build/img/submenu/close.svg" alt="Equis">
             <ul>
                 <li><a href="src/carta.html">Carta</a></li>
                 <li>Restaurantes</li>
@@ -52,158 +50,159 @@
                 <li class="secondary">Cookies</li>
                 <li class="secondary">Solicita tu factura</li>
             </ul>
-    </div>
-
-</header>
-
- <article>
-    <section class="bienvenida">
-        <img class="taco_sello" src="build/img/sello_tacos.svg" alt="Sello tacos">
-    
-        <div class="content-bienvenida">   
-        <span class="chiwawa-span">SEAN BIENVENIDOS A</span>
-            <h1 class="chiwawa-h1">CHIWAWA</h1>
-        
-        <hr class="hr-blanco">
-        <p>
-            Somos una cantina bien perra que sirve ricos margaritas y deliciosa
-            comida casera. Cocina inspirada en los puestos callejeros que
-            gobiernan México y Latinoamérica.
-            <br>
-            <br>
-            Somos callejeros, somos
-            furiosos, somos Chiwawa®
-        
-        </p>
-        <hr class="hr-blanco">
-
-    </div> 
-    </section>
-    <!--First Image-->
-    <img class="man1-fuerte" src="build/img/man/home1.jpg" alt="man1">
-
-<!--Section Nuestros Locales-->
-<section class="nuestros-locales">
-
-        <div class="locales-span">NUESTROS</div>
-        <div class="locales-h1">LOCALES</div>
-    
-    <div class="muy-abiertos">
-        <hr class="hr-azul-oscuro">
-        <div class="abiertos">Muy abiertos todos los días de 13:00 a 00:00</div>
-        <hr class="hr-azul-oscuro">
-    </div>
-
-    <div class="grid-locales">
-        <img class="izq-iconos" src="build/img/icons/mesa-lopez.svg">
-        <div class="der-letras">
-            <h3 class="name-places">MESA Y LÓPEZ</h3>
-            <p class="info-locales">Juan Manuel Durán,17 928077053</p>
-            <a href="#" class="button-info">Cómo llegar</a>
-        </div>
-        
-            <img class="izq-iconos" src="build/img/icons/vegueta.svg">
-            <div class="der-letras">
-                <h3 class="name-places">VEGUETA</h3>
-                <p class="info-locales">Avda. Alcalde
-                    Díaz Saavedra, 9
-                    928077053</p>
-                <a href="#" class="button-info">Cómo llegar</a>
-            </div>
-
-            <img class="izq-iconos" style="width: 60%;" src="build/img/icons/cicer.svg">
-            <div class="der-letras">
-                <h3 class="name-places">LA CÍCER</h3>
-                <p class="info-locales">Calle Numancia, 73
-                    928077053</p>
-                <a href="#" class="button-info">Cómo llegar</a>
-            </div>
-
-            <img class="izq-iconos" src="build/img/icons/mesa-lopez.svg">
-            <div class="der-letras">
-                <h3 class="name-places">VECINDARIO</h3>
-                <p class="info-locales">Calle La Cerruda, 5
-                    928077053</p>
-                <a href="#" class="button-info">Cómo llegar</a>
-            </div>
-    </div>
-
-</section>
-
-<!--Second image-->
-    <img class="man2-fuerte" src="build/img/man/home3.jpg" alt="man3">
- 
-
-<section class="sirvete">
-
-    <div class="locales-spanS">SÍRVASE</div>
-    <div class="locales-h1S">A SU GUSTO</div>
-
-    <hr class="hr-azul-oscuroS">
-
-<div class="grid-localesS">
-    <img class="izq-iconosS" src="build/img/icons/carta.svg">
-    <div class="der-letrasS">
-        <h3 class="name-placesS">LA CARTA</h3>
-        <p class="info-localesS">Nuestra comida es simpática pero peleona.</p>
-        <a href="#" class="button-infoS">Ver los platos</a>
-    </div>
-    
-    <img class="izq-iconosS" src="build/img/icons/domicilio.svg">
-    <div class="der-letrasS">
-        <h3 class="name-placesS">A DOMICILIO</h3>
-        <p class="info-localesS">Llena tu casa de sabor con nuestros platillos</p>
-        <a href="#" class="button-infoS">Pide ahora</a>
-    </div>
-    
-    <img class="izq-iconosS" src="build/img/icons/reserva.svg">
-    <div class="der-letrasS">
-        <h3 class="name-placesS">RESERVA AHORA</h3>
-        <p class="info-localesS">No te quedes sin tu lugar en nuestras cantinas.</p>
-        <a href="#" class="button-infoS">Reserva tu mesa</a>
-    </div>
-    
-</div>
-
-</section>
-
-<!--Third image-->
-    <img class="man3-fuerte" src="build/img/man/home4.jpg" alt="Man3">
-
-    <!--Section Rosita-->
-<section class="rosita">
-
-    <div class="nosotros">NOSOTROS NO</div>
-    <div class="ladramos">LADRAMOS</div>
-    <div class="posicion-rosita">
-        <hr class="hr-rosita">
-        
-        <div class="redes">
-            <img class="insta" src="build/img/redes-iconos/instagram.svg" alt="Instagram">
-            <p class="morder">Pero sí mordemos</p>
-            <img class="trip" src="build/img/redes-iconos/tripadvisor.svg" alt="Tripadvisor">
         </div>
 
-        <hr class="hr-rosita">
+    </header>
 
-        <div class="grid-rosita">
-            <img class="gr-imagenes" src="build/img/insta-img/oliendo-flores.jpg" alt="Flores">
-            <img class="gr-imagenes" src="build/img/insta-img/bailando.jpg" alt="bailar">
-            <img class="gr-imagenes" src="build/img/insta-img/taco-mano.jpg" alt="taco">
-            <img class="gr-imagenes" src="build/img/insta-img/monja.jpg" alt="monja">
-            <img class="gr-imagenes" src="build/img/insta-img/restaurante-interior.jpg" alt="rest">
-            <img class="gr-imagenes" src="build/img/insta-img/mujer-feliz.jpg" alt="mujer">
-            <img class="gr-imagenes" src="build/img/insta-img/tequeños.jpg" alt="tequeños">
-            <img class="gr-imagenes" src="build/img/insta-img/domino.jpg" alt="domino">
-            <img class="gr-imagenes" src="build/img/insta-img/jugos.jpg" alt="jugo">
-        </div>
-    </div>
+    <article>
+        <section class="bienvenida">
+            <img class="taco_sello" src="build/img/sello_tacos.svg" alt="Sello tacos">
 
-    <hr class="hr-rosita">
-</section>
+            <div class="content-bienvenida">
+                <span class="chiwawa-span">SEAN BIENVENIDOS A</span>
+                <h1 class="chiwawa-h1">CHIWAWA</h1>
+
+                <hr class="hr-blanco">
+                <p>
+                    Somos una cantina bien perra que sirve ricos margaritas y deliciosa
+                    comida casera. Cocina inspirada en los puestos callejeros que
+                    gobiernan México y Latinoamérica.
+                    <br>
+                    <br>
+                    Somos callejeros, somos
+                    furiosos, somos Chiwawa®
+
+                </p>
+                <hr class="hr-blanco">
+
+            </div>
+        </section>
+        <!--First Image-->
+        <img class="man1-fuerte" src="build/img/man/home1.jpg" alt="man1">
+
+        <!--Section Nuestros Locales-->
+        <section class="nuestros-locales">
+
+            <div class="locales-span">NUESTROS</div>
+            <div class="locales-h1">LOCALES</div>
+
+            <div class="muy-abiertos">
+                <hr class="hr-azul-oscuro">
+                <div class="abiertos">Muy abiertos todos los días de 13:00 a 00:00</div>
+                <hr class="hr-azul-oscuro">
+            </div>
+
+            <div class="grid-locales">
+                <img class="izq-iconos" src="build/img/icons/mesa-lopez.svg">
+                <div class="der-letras">
+                    <h3 class="name-places">MESA Y LÓPEZ</h3>
+                    <p class="info-locales">Juan Manuel Durán,17 928077053</p>
+                    <a href="#" class="button-info">Cómo llegar</a>
+                </div>
+
+                <img class="izq-iconos" src="build/img/icons/vegueta.svg">
+                <div class="der-letras">
+                    <h3 class="name-places">VEGUETA</h3>
+                    <p class="info-locales">Avda. Alcalde
+                        Díaz Saavedra, 9
+                        928077053</p>
+                    <a href="#" class="button-info">Cómo llegar</a>
+                </div>
+
+                <img class="izq-iconos" style="width: 60%;" src="build/img/icons/cicer.svg">
+                <div class="der-letras">
+                    <h3 class="name-places">LA CÍCER</h3>
+                    <p class="info-locales">Calle Numancia, 73
+                        928077053</p>
+                    <a href="#" class="button-info">Cómo llegar</a>
+                </div>
+
+                <img class="izq-iconos" src="build/img/icons/mesa-lopez.svg">
+                <div class="der-letras">
+                    <h3 class="name-places">VECINDARIO</h3>
+                    <p class="info-locales">Calle La Cerruda, 5
+                        928077053</p>
+                    <a href="#" class="button-info">Cómo llegar</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Second image-->
+        <img class="man2-fuerte" src="build/img/man/home3.jpg" alt="man3">
 
 
-</article>
-<script src="build/js/submenu.js"></script>
+        <section class="sirvete">
+
+            <div class="locales-spanS">SÍRVASE</div>
+            <div class="locales-h1S">A SU GUSTO</div>
+
+            <hr class="hr-azul-oscuroS">
+
+            <div class="grid-localesS">
+                <img class="izq-iconosS" src="build/img/icons/carta.svg">
+                <div class="der-letrasS">
+                    <h3 class="name-placesS">LA CARTA</h3>
+                    <p class="info-localesS">Nuestra comida es simpática pero peleona.</p>
+                    <a href="#" class="button-infoS">Ver los platos</a>
+                </div>
+
+                <img class="izq-iconosS" src="build/img/icons/domicilio.svg">
+                <div class="der-letrasS">
+                    <h3 class="name-placesS">A DOMICILIO</h3>
+                    <p class="info-localesS">Llena tu casa de sabor con nuestros platillos</p>
+                    <a href="#" class="button-infoS">Pide ahora</a>
+                </div>
+
+                <img class="izq-iconosS" src="build/img/icons/reserva.svg">
+                <div class="der-letrasS">
+                    <h3 class="name-placesS">RESERVA AHORA</h3>
+                    <p class="info-localesS">No te quedes sin tu lugar en nuestras cantinas.</p>
+                    <a href="#" class="button-infoS">Reserva tu mesa</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Third image-->
+        <img class="man3-fuerte" src="build/img/man/home4.jpg" alt="Man3">
+
+        <!--Section Rosita-->
+        <section class="rosita">
+
+            <div class="nosotros">NOSOTROS NO</div>
+            <div class="ladramos">LADRAMOS</div>
+            <div class="posicion-rosita">
+                <hr class="hr-rosita">
+
+                <div class="redes">
+                    <img class="insta" src="build/img/redes-iconos/instagram.svg" alt="Instagram">
+                    <p class="morder">Pero sí mordemos</p>
+                    <img class="trip" src="build/img/redes-iconos/tripadvisor.svg" alt="Tripadvisor">
+                </div>
+
+                <hr class="hr-rosita">
+
+                <div class="grid-rosita">
+                    <img class="gr-imagenes" src="build/img/insta-img/oliendo-flores.jpg" alt="Flores">
+                    <img class="gr-imagenes" src="build/img/insta-img/bailando.jpg" alt="bailar">
+                    <img class="gr-imagenes" src="build/img/insta-img/taco-mano.jpg" alt="taco">
+                    <img class="gr-imagenes" src="build/img/insta-img/monja.jpg" alt="monja">
+                    <img class="gr-imagenes" src="build/img/insta-img/restaurante-interior.jpg" alt="rest">
+                    <img class="gr-imagenes" src="build/img/insta-img/mujer-feliz.jpg" alt="mujer">
+                    <img class="gr-imagenes" src="build/img/insta-img/tequeños.jpg" alt="tequeños">
+                    <img class="gr-imagenes" src="build/img/insta-img/domino.jpg" alt="domino">
+                    <img class="gr-imagenes" src="build/img/insta-img/jugos.jpg" alt="jugo">
+                </div>
+            </div>
+
+            <hr class="hr-rosita">
+        </section>
+
+
+    </article>
+    <script src="build/js/submenu.js"></script>
 </body>
+
 </html>

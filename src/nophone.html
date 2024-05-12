@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirección de dispositivos</title>
+    <link
+      rel="shortcut icon"
+      href="../build/img/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Chiwawa</title>
+    <script>
+      window.addEventListener("resize", function () {
+        if (window.innerWidth <= 768) {
+          window.location.href = "../index.html";
+        }
+      });
+    </script>
     <style>
       * {
         background-color: #fefade;
