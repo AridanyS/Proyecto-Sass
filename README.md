@@ -1,6 +1,6 @@
-**Proyecto creado para dispositivos móviles**
+This project was created to practice designing for mobile devices using sass.
 
-Clon de la página web del restaurante  [Chiwawa](https://chiwawa.es/) 🌮
+Web page clon: [Chiwawa](https://chiwawa.es/) 🌮
 
 Deploy: [Proyecto Sass Chiwawa](https://aridanys.github.io/Proyecto-Sass/src/nophone.html)
 
